@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Datenschutzerklärung — Rupp HR Partners</title>
+<meta name="description" content="Datenschutzerklärung gemäß DSGVO zu Rupp HR Partners — Informationen zur Verarbeitung personenbezogener Daten.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* ============================================
+   Rupp HR Partners — Stylesheet
+   ============================================ */
+
+:root {
+  --color-ink: #1a2332;
+  --color-ink-soft: #1a3a52;
+  --color-sand: #f4f1ec;
+  --color-sand-dark: #e8e3d8;
+  --color-gold: #c89b5e;
+  --color-gold-dark: #a87f43;
+  --color-muted: #6b5d4a;
+  --color-body: #4a4538;
+  --color-line: rgba(26, 35, 50, 0.12);
+  --color-line-soft: rgba(26, 35, 50, 0.06);
+  --color-bg: #ffffff;
+
+  --font-display: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-body: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-pill: 999px;
+
+  --max-width: 1200px;
+  --gutter: 32px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-ink);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "ss01", "cv11";
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+/* ============================================
+   LAYOUT
+   ============================================ */
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+section {
+  padding: 80px 0;
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--color-ink);
+}
+
+h1 {
+  font-size: clamp(36px, 5.5vw, 60px);
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: clamp(28px, 3.5vw, 40px);
+  letter-spacing: -0.025em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+p {
+  color: var(--color-body);
+  line-height: 1.7;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--color-gold);
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.eyebrow::before {
+  content: "—";
+  color: var(--color-gold);
+}
+
+.eyebrow.no-dash::before {
+  display: none;
+}
+
+.italic-accent {
+  color: var(--color-gold);
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* ============================================
+   NAVIGATION
+   ============================================ */
+
+.nav {
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-line);
+  padding: 18px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.logo-mark {
+  width: 36px;
+  height: 36px;
+  background: var(--color-ink-soft);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-display);
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.logo-name {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+.logo-tag {
+  font-size: 10px;
+  color: var(--color-muted);
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  list-style: none;
+}
+
+.nav-links a {
+  font-size: 14px;
+  color: var(--color-body);
+  font-weight: 400;
+}
+
+.nav-links a.active {
+  color: var(--color-ink);
+  font-weight: 500;
+}
+
+.nav-cta {
+  background: var(--color-ink-soft);
+  color: white !important;
+  padding: 10px 18px;
+  border-radius: var(--radius-pill);
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: background 0.2s ease;
+}
+
+.nav-cta:hover {
+  background: var(--color-ink);
+  opacity: 1 !important;
+}
+
+.nav-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: var(--color-ink);
+}
+
+/* ============================================
+   BUTTONS
+   ============================================ */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 26px;
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  font-weight: 500;
+  font-family: var(--font-body);
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: var(--color-ink-soft);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: var(--color-ink);
+  opacity: 1;
+}
+
+.btn-light {
+  background: white;
+  color: var(--color-ink);
+}
+
+.btn-light:hover {
+  background: var(--color-sand);
+  opacity: 1;
+}
+
+.btn-ghost {
+  color: var(--color-body);
+  padding: 14px 20px;
+}
+
+.btn-ghost:hover {
+  color: var(--color-ink);
+  opacity: 1;
+}
+
+/* ============================================
+   HERO
+   ============================================ */
+
+.hero {
+  padding: 90px 0 100px;
+  background: var(--color-bg);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.hero-inner {
+  max-width: 600px;
+}
+
+.hero-visual {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  max-width: 480px;
+  margin-left: auto;
+}
+
+.hero-visual svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Animations */
+@keyframes orbit-1 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(8px, -12px); }
+}
+
+@keyframes orbit-2 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(-10px, 8px); }
+}
+
+@keyframes orbit-3 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(6px, 10px); }
+}
+
+@keyframes orbit-4 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(-8px, -6px); }
+}
+
+@keyframes pulse-line {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 0.7; }
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.15); }
+}
+
+@keyframes rotate-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.node-1 { animation: orbit-1 8s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+.node-2 { animation: orbit-2 10s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+.node-3 { animation: orbit-3 9s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+.node-4 { animation: orbit-4 11s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+
+.line-pulse { animation: pulse-line 4s ease-in-out infinite; }
+.line-pulse-2 { animation: pulse-line 5s ease-in-out infinite 1s; }
+.line-pulse-3 { animation: pulse-line 6s ease-in-out infinite 2s; }
+
+.center-pulse { animation: pulse-dot 3s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+.ring-rotate { animation: rotate-slow 60s linear infinite; transform-origin: 240px 240px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .node-1, .node-2, .node-3, .node-4,
+  .line-pulse, .line-pulse-2, .line-pulse-3,
+  .center-pulse, .ring-rotate {
+    animation: none;
+  }
+}
+
+.hero-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--color-sand);
+  padding: 7px 16px;
+  border-radius: var(--radius-pill);
+  font-size: 11px;
+  color: var(--color-muted);
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  font-weight: 500;
+}
+
+.hero-pill .dot {
+  width: 6px;
+  height: 6px;
+  background: var(--color-gold);
+  border-radius: 50%;
+}
+
+.hero-lead {
+  font-size: clamp(16px, 1.4vw, 18px);
+  line-height: 1.65;
+  color: var(--color-body);
+  margin: 28px 0 40px;
+  max-width: 620px;
+}
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* Subpage hero variant */
+.page-hero {
+  padding: 70px 0 60px;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.page-hero h1 {
+  font-size: clamp(32px, 4.5vw, 48px);
+  max-width: 720px;
+}
+
+.page-hero p {
+  font-size: 17px;
+  max-width: 640px;
+  margin-top: 20px;
+}
+
+/* ============================================
+   LEISTUNGEN (Service cards)
+   ============================================ */
+
+.section-header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 60px;
+  margin-bottom: 56px;
+  align-items: end;
+}
+
+.section-header p {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--color-line);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.service-card {
+  background: var(--color-bg);
+  padding: 40px 32px;
+  display: flex;
+  flex-direction: column;
+  transition: background 0.3s ease;
+}
+
+.service-card:hover {
+  background: var(--color-sand);
+}
+
+.service-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.service-icon {
+  width: 44px;
+  height: 44px;
+  background: var(--color-sand);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  font-size: 22px;
+  color: var(--color-muted);
+}
+
+.service-card:hover .service-icon {
+  background: white;
+}
+
+.service-num {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--color-muted);
+  letter-spacing: 0.5px;
+}
+
+.service-card h3 {
+  margin-bottom: 14px;
+}
+
+.service-card p {
+  font-size: 14px;
+  line-height: 1.65;
+  margin-bottom: 24px;
+  flex: 1;
+}
+
+.service-features {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+.service-features li {
+  list-style: none;
+  font-size: 13px;
+  color: var(--color-body);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.service-features li::before {
+  content: "✓";
+  color: var(--color-gold);
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.service-link {
+  font-size: 13px;
+  color: var(--color-ink-soft);
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.service-link::after {
+  content: "→";
+  transition: transform 0.2s ease;
+}
+
+.service-link:hover::after {
+  transform: translateX(4px);
+}
+
+/* ============================================
+   PROZESS
+   ============================================ */
+
+.section-sand {
+  background: var(--color-sand);
+}
+
+.section-sand p {
+  color: var(--color-body);
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+  position: relative;
+  padding-top: 12px;
+}
+
+.process-grid::before {
+  content: "";
+  position: absolute;
+  top: 48px;
+  left: 32px;
+  right: 32px;
+  height: 1px;
+  background: #d4c8b8;
+  z-index: 0;
+}
+
+.process-step {
+  position: relative;
+  z-index: 1;
+}
+
+.process-step-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.process-num {
+  width: 36px;
+  height: 36px;
+  background: var(--color-ink-soft);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 0 0 6px white;
+}
+
+.section-sand .process-num {
+  box-shadow: 0 0 0 6px var(--color-sand);
+}
+
+.process-num.gold {
+  background: var(--color-gold);
+}
+
+.process-time {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--color-muted);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  background: white;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-pill);
+}
+
+.process-step h4 {
+  margin-bottom: 10px;
+  color: var(--color-ink);
+}
+
+.process-step p {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* ============================================
+   ÜBER DANIEL
+   ============================================ */
+
+.section-dark {
+  background: var(--color-ink);
+  color: white;
+}
+
+.section-dark h2,
+.section-dark h3 {
+  color: white;
+}
+
+.section-dark p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-portrait {
+  aspect-ratio: 1 / 1;
+  border-radius: var(--radius-md);
+  position: relative;
+  overflow: hidden;
+  background: #1a3a52;
+}
+
+.about-portrait img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.about-portrait::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(26, 35, 50, 0.85) 0%, rgba(26, 35, 50, 0.3) 35%, transparent 60%);
+  z-index: 1;
+}
+
+.about-portrait-text {
+  position: absolute;
+  bottom: 28px;
+  left: 28px;
+  right: 28px;
+  z-index: 2;
+}
+
+.about-portrait-name {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 4px;
+  letter-spacing: -0.02em;
+}
+
+.about-portrait-role {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: 0.5px;
+}
+
+.about-grid p {
+  margin-bottom: 20px;
+}
+
+.about-actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+
+.about-actions .ghost-link {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.about-actions .ghost-link:hover {
+  color: white;
+  opacity: 1;
+}
+
+/* ============================================
+   KONTAKT / CTA
+   ============================================ */
+
+.cta-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.cta-info p {
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0 0 32px;
+  max-width: 480px;
+}
+
+.cta-contacts {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+
+.cta-contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--color-body);
+}
+
+.cta-contact .icon {
+  color: var(--color-gold);
+  font-size: 16px;
+}
+
+.cta-form {
+  background: white;
+  border-radius: var(--radius-md);
+  padding: 32px;
+  border: 1px solid var(--color-line);
+}
+
+.cta-form-title {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 22px;
+  color: var(--color-ink);
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.form-field label {
+  font-size: 12px;
+  color: var(--color-muted);
+  font-weight: 500;
+}
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  font-family: var(--font-body);
+  background: white;
+  color: var(--color-ink);
+  transition: border-color 0.2s ease;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+  outline: none;
+  border-color: var(--color-ink-soft);
+}
+
+.form-field textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.form-consent {
+  font-size: 12px;
+  color: var(--color-muted);
+  line-height: 1.5;
+  margin: 14px 0 18px;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.form-consent input {
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.form-submit {
+  width: 100%;
+  background: var(--color-ink-soft);
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: var(--font-body);
+  transition: background 0.2s ease;
+}
+
+.form-submit:hover {
+  background: var(--color-ink);
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+.footer {
+  background: var(--color-ink);
+  color: rgba(255, 255, 255, 0.7);
+  padding: 60px 0 28px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 48px;
+}
+
+.footer-brand .logo-mark {
+  background: var(--color-gold);
+  color: var(--color-ink);
+}
+
+.footer-brand .logo-name {
+  color: white;
+}
+
+.footer-brand p {
+  font-size: 13px;
+  line-height: 1.7;
+  margin: 18px 0 0;
+  max-width: 280px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.footer-col h5 {
+  font-size: 11px;
+  color: white;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  font-weight: 500;
+  font-family: var(--font-body);
+}
+
+.footer-col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-col a {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.footer-col a:hover {
+  color: white;
+  opacity: 1;
+}
+
+.footer-col .accent {
+  color: var(--color-gold);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.footer-bottom-links {
+  display: flex;
+  gap: 24px;
+}
+
+/* ============================================
+   ÜBER UNS PAGE
+   ============================================ */
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.value-card {
+  padding: 32px 28px;
+  background: var(--color-sand);
+  border-radius: var(--radius-md);
+}
+
+.value-card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.value-card p {
+  font-size: 14px;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.two-col-text p {
+  margin-bottom: 18px;
+  font-size: 15px;
+}
+
+/* ============================================
+   JOBPORTAL PAGE
+   ============================================ */
+
+.jobportal-section {
+  padding: 40px 0 60px;
+}
+
+.jobportal-frame {
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: white;
+  min-height: 70vh;
+}
+
+.iframe-wrapper {
+  width: 100%;
+  height: 80vh;
+  min-height: 600px;
+}
+
+#starhunter-job-portal-iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+/* ============================================
+   PROZESS DETAIL PAGE
+   ============================================ */
+
+.process-detail {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 40px;
+  padding: 48px 0;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.process-detail:last-child {
+  border-bottom: none;
+}
+
+.process-detail-num {
+  font-family: var(--font-display);
+  font-size: 60px;
+  font-weight: 400;
+  color: var(--color-gold);
+  line-height: 1;
+}
+
+.process-detail-content h3 {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.process-detail-content p {
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.process-detail-meta {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--color-muted);
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+/* ============================================
+   LEISTUNG DETAIL PAGE
+   ============================================ */
+
+.leistung-section {
+  padding: 80px 0;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.leistung-section:last-of-type {
+  border-bottom: none;
+}
+
+.leistung-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.leistung-num {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--color-gold);
+  letter-spacing: 2px;
+  margin-bottom: 14px;
+}
+
+.leistung-grid h2 {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.leistung-grid p {
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+
+.leistung-list {
+  list-style: none;
+  margin-top: 24px;
+}
+
+.leistung-list li {
+  padding: 16px 0;
+  border-top: 1px solid var(--color-line);
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+}
+
+.leistung-list li:last-child {
+  border-bottom: 1px solid var(--color-line);
+}
+
+.leistung-list .label {
+  font-weight: 500;
+  color: var(--color-ink);
+  min-width: 160px;
+}
+
+.leistung-list .desc {
+  color: var(--color-body);
+  flex: 1;
+}
+
+/* ============================================
+   ANIMATIONS
+   ============================================ */
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 0.8s ease-out backwards;
+}
+
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.2s; }
+.delay-3 { animation-delay: 0.3s; }
+.delay-4 { animation-delay: 0.4s; }
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 960px) {
+  :root {
+    --gutter: 24px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-bottom: 1px solid var(--color-line);
+    flex-direction: column;
+    padding: 20px var(--gutter);
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .nav-links.is-open {
+    display: flex;
+  }
+
+  .section-header,
+  .about-grid,
+  .cta-grid,
+  .two-col,
+  .leistung-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+
+  .process-grid::before {
+    display: none;
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .hero {
+    padding: 60px 0 70px;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .hero-visual {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .process-detail {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .process-detail-num {
+    font-size: 44px;
+  }
+
+  .leistung-list li {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .leistung-list .label {
+    min-width: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn {
+    justify-content: center;
+  }
+}
+
+</style>
+<style>
+  .legal-content {
+    max-width: 760px;
+  }
+  .legal-content h2 {
+    margin-top: 48px;
+    margin-bottom: 16px;
+    font-size: 22px;
+  }
+  .legal-content h2:first-of-type {
+    margin-top: 0;
+  }
+  .legal-content h3 {
+    margin-top: 28px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .legal-content p,
+  .legal-content address,
+  .legal-content ul {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 14px;
+    font-style: normal;
+    color: var(--color-body);
+  }
+  .legal-content ul {
+    padding-left: 22px;
+  }
+  .legal-content li {
+    margin-bottom: 6px;
+  }
+  .legal-content strong {
+    color: var(--color-ink);
+    font-weight: 600;
+  }
+  .legal-content a {
+    color: var(--color-ink-soft);
+    text-decoration: underline;
+    text-decoration-color: var(--color-gold);
+    text-underline-offset: 3px;
+  }
+  .legal-content a:hover {
+    opacity: 1;
+    color: var(--color-gold);
+  }
+  .legal-block {
+    background: var(--color-sand);
+    padding: 24px 28px;
+    border-radius: var(--radius-md);
+    margin: 20px 0;
+  }
+  .legal-block p {
+    margin-bottom: 6px;
+  }
+  .toc {
+    background: var(--color-sand);
+    padding: 24px 28px;
+    border-radius: var(--radius-md);
+    margin-bottom: 48px;
+  }
+  .toc h3 {
+    margin-top: 0 !important;
+    font-size: 13px !important;
+    color: var(--color-muted);
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .toc ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    columns: 2;
+    column-gap: 32px;
+  }
+  .toc li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    break-inside: avoid;
+  }
+  .toc a {
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">R</span>
+      <span class="logo-text">
+        <span class="logo-name">Rupp HR Partners</span>
+        <span class="logo-tag">Executive Search · Allgäu</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Menü öffnen" onclick="document.querySelector('.nav-links').classList.toggle('is-open')">☰</button>
+    <ul class="nav-links">
+      <li><a href="ueber-uns.html">Über uns</a></li>
+      <li><a href="leistungen.html">Leistungen</a></li>
+      <li><a href="prozess.html">Prozess</a></li>
+      <li><a href="jobportal.html">Jobportal</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+      <li><a href="kontakt.html" class="nav-cta">Gespräch vereinbaren ↗</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ============ PAGE HERO ============ -->
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow">Rechtliches</div>
+    <h1>Datenschutzerklärung.</h1>
+    <p>Informationen zur Verarbeitung personenbezogener Daten gemäß Art. 13 und 14 DSGVO.</p>
+  </div>
+</section>
+
+<!-- ============ INHALT ============ -->
+<section>
+  <div class="container">
+    <div class="legal-content">
+
+      <div class="toc">
+        <h3>Inhaltsverzeichnis</h3>
+        <ul>
+          <li><a href="#verantwortlicher">1. Verantwortlicher</a></li>
+          <li><a href="#rechte">2. Ihre Rechte</a></li>
+          <li><a href="#hosting">3. Hosting</a></li>
+          <li><a href="#zugriffsdaten">4. Zugriffsdaten</a></li>
+          <li><a href="#kontaktformular">5. Kontaktformular</a></li>
+          <li><a href="#bewerbungen">6. Bewerbungen</a></li>
+          <li><a href="#fonts">7. Google Fonts</a></li>
+          <li><a href="#jobportal">8. Jobportal (Starhunter)</a></li>
+          <li><a href="#cookies">9. Cookies</a></li>
+          <li><a href="#aenderungen">10. Änderungen</a></li>
+        </ul>
+      </div>
+
+      <h2 id="verantwortlicher">1. Verantwortlicher</h2>
+      <p>Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:</p>
+      <div class="legal-block">
+        <p><strong>Rupp HR Partners</strong></p>
+        <p>Inhaber: Daniel Rupp</p>
+        <p>Keplerweg 29/1</p>
+        <p>88239 Wangen im Allgäu</p>
+        <p>Telefon: <a href="tel:+491606434962">+49 160 643 49 62</a></p>
+        <p>E-Mail: <a href="mailto:daniel.rupp@rupp-hrpartners.de">daniel.rupp@rupp-hrpartners.de</a></p>
+      </div>
+
+      <h2 id="rechte">2. Ihre Rechte als betroffene Person</h2>
+      <p>Sie haben nach der DSGVO folgende Rechte hinsichtlich Ihrer personenbezogenen Daten:</p>
+      <ul>
+        <li><strong>Auskunftsrecht</strong> (Art. 15 DSGVO)</li>
+        <li><strong>Recht auf Berichtigung</strong> (Art. 16 DSGVO)</li>
+        <li><strong>Recht auf Löschung</strong> (Art. 17 DSGVO)</li>
+        <li><strong>Recht auf Einschränkung der Verarbeitung</strong> (Art. 18 DSGVO)</li>
+        <li><strong>Recht auf Datenübertragbarkeit</strong> (Art. 20 DSGVO)</li>
+        <li><strong>Widerspruchsrecht</strong> (Art. 21 DSGVO)</li>
+        <li><strong>Recht auf Widerruf einer erteilten Einwilligung</strong> (Art. 7 Abs. 3 DSGVO)</li>
+      </ul>
+      <p>Sie haben zudem das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren (Art. 77 DSGVO). Die für uns zuständige Aufsichtsbehörde ist:</p>
+      <div class="legal-block">
+        <p>Der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg</p>
+        <p>Lautenschlagerstraße 20</p>
+        <p>70173 Stuttgart</p>
+        <p>Web: <a href="https://www.baden-wuerttemberg.datenschutz.de" target="_blank" rel="noopener">www.baden-wuerttemberg.datenschutz.de</a></p>
+      </div>
+
+      <h2 id="hosting">3. Hosting</h2>
+      <p>Diese Website wird bei einem externen Dienstleister gehostet (Hoster). Die personenbezogenen Daten, die auf dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann es sich v.a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Webseitenzugriffe und sonstige Daten, die über eine Website generiert werden, handeln.</p>
+      <p><strong>Hoster:</strong> [Name und Anschrift des Hosting-Anbieters einfügen]</p>
+      <p>Die Verarbeitung erfolgt auf Grundlage berechtigter Interessen (Art. 6 Abs. 1 lit. f DSGVO) an einer sicheren, schnellen und effizienten Bereitstellung unseres Online-Angebots durch einen professionellen Anbieter.</p>
+
+      <h2 id="zugriffsdaten">4. Zugriffsdaten / Server-Logfiles</h2>
+      <p>Beim Aufruf unserer Website werden automatisch Informationen in sogenannten Server-Logfiles gespeichert, die Ihr Browser an uns übermittelt. Dies sind:</p>
+      <ul>
+        <li>IP-Adresse des anfragenden Rechners</li>
+        <li>Datum und Uhrzeit des Zugriffs</li>
+        <li>Name und URL der abgerufenen Datei</li>
+        <li>Website, von der aus der Zugriff erfolgt (Referrer-URL)</li>
+        <li>Verwendeter Browser und ggf. das Betriebssystem Ihres Rechners</li>
+      </ul>
+      <p>Die Verarbeitung erfolgt zur Wahrung berechtigter Interessen (Art. 6 Abs. 1 lit. f DSGVO) zur Gewährleistung der Stabilität und Sicherheit der Website. Diese Daten werden nach spätestens 30 Tagen gelöscht.</p>
+
+      <h2 id="kontaktformular">5. Kontaktformular und E-Mail-Kontakt</h2>
+      <p>Wenn Sie uns per Kontaktformular oder E-Mail Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert.</p>
+      <p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO (Vertragsanbahnung) bzw. Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der effektiven Bearbeitung der Anfrage).</p>
+      <p><strong>Speicherdauer:</strong> Die Daten werden gelöscht, sobald sie für die Erreichung des Zweckes ihrer Erhebung nicht mehr erforderlich sind. Für personenbezogene Daten aus dem Kontaktformular ist dies in der Regel der Fall, wenn die jeweilige Konversation mit Ihnen beendet ist. Beendet ist die Konversation dann, wenn sich aus den Umständen entnehmen lässt, dass der betreffende Sachverhalt abschließend geklärt ist. Gesetzliche Aufbewahrungspflichten bleiben unberührt.</p>
+
+      <h2 id="bewerbungen">6. Bewerbungen und Kandidatendaten</h2>
+      <p>Im Rahmen unserer Tätigkeit als Personalberatung verarbeiten wir personenbezogene Daten von Bewerbern und Kandidaten, insbesondere:</p>
+      <ul>
+        <li>Stammdaten (Name, Anschrift, Kontaktdaten)</li>
+        <li>Berufliche Daten (Lebenslauf, Zeugnisse, Qualifikationen)</li>
+        <li>Daten aus persönlichen Gesprächen und Eignungsdiagnostik</li>
+        <li>ggf. weitere Daten, die Sie uns freiwillig zur Verfügung stellen</li>
+      </ul>
+      <p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO und § 26 BDSG (Anbahnung eines Beschäftigungsverhältnisses) sowie Art. 6 Abs. 1 lit. a DSGVO (Einwilligung) bei der Aufnahme in unseren Kandidatenpool.</p>
+      <p><strong>Weitergabe:</strong> Wir geben Ihre Daten ausschließlich nach vorheriger Rücksprache und mit Ihrer ausdrücklichen Zustimmung an potenzielle Auftraggeber (Mandanten) weiter.</p>
+      <p><strong>Speicherdauer:</strong> Bei erfolgloser Bewerbung werden Ihre Daten spätestens nach sechs Monaten gelöscht, sofern Sie nicht ausdrücklich in eine längere Speicherung (z.B. zur Aufnahme in unseren Kandidatenpool) einwilligen. In den Kandidatenpool aufgenommene Profile werden bis zu zwei Jahre gespeichert; danach erfolgt eine erneute Rückfrage.</p>
+
+      <h2 id="fonts">7. Google Fonts (selbst gehostet / extern)</h2>
+      <p>Diese Website nutzt zur einheitlichen Darstellung von Schriftarten sogenannte Web Fonts, die von Google bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Web Fonts in seinen Browser-Cache, um Texte und Schriftarten korrekt anzuzeigen.</p>
+      <p>Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern von Google aufnehmen. Hierdurch erlangt Google Kenntnis darüber, dass über Ihre IP-Adresse unsere Website aufgerufen wurde.</p>
+      <p>Die Nutzung von Google Fonts erfolgt im Interesse einer einheitlichen und ansprechenden Darstellung unserer Online-Angebote. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar.</p>
+      <p>Anbieter: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Weitere Informationen finden Sie unter <a href="https://developers.google.com/fonts/faq" target="_blank" rel="noopener">developers.google.com/fonts/faq</a> und in der Datenschutzerklärung von Google: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
+      <p><em>Hinweis: Falls Sie Google Fonts lokal hosten möchten (datenschutzfreundlicher), kann dieser Absatz entsprechend angepasst werden.</em></p>
+
+      <h2 id="jobportal">8. Jobportal (Starhunter)</h2>
+      <p>Auf unserer Seite „Jobportal" binden wir Inhalte des externen Anbieters <strong>Starhunter</strong> per iFrame ein. Hierdurch werden beim Aufruf der Seite Daten an die Server von Starhunter übertragen, insbesondere Ihre IP-Adresse, Browser-Informationen und Zugriffszeitpunkt.</p>
+      <p>Sofern Sie sich über das Jobportal auf eine ausgeschriebene Stelle bewerben, werden die von Ihnen eingegebenen Daten direkt bei Starhunter verarbeitet und uns zur Verfügung gestellt.</p>
+      <p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Bereitstellung eines Bewerbungsportals) bzw. Art. 6 Abs. 1 lit. b DSGVO bei aktiver Bewerbung.</p>
+      <p><strong>Anbieter:</strong> [Vollständiger Name und Anschrift des Starhunter-Anbieters einfügen]<br>
+      Datenschutzerklärung des Anbieters: <a href="https://rs.starhunter.software/" target="_blank" rel="noopener">rs.starhunter.software</a></p>
+
+      <h2 id="cookies">9. Cookies</h2>
+      <p>Unsere Website verwendet aktuell nur technisch notwendige Cookies, die für den Betrieb der Website erforderlich sind. Diese Cookies werden auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO gespeichert. Sie können Ihren Browser so einstellen, dass Cookies generell abgelehnt werden.</p>
+      <p><em>Hinweis: Sobald Tracking-Tools, Analyse-Cookies oder Marketing-Cookies eingesetzt werden, ist dieser Abschnitt zwingend zu erweitern und ein Cookie-Banner mit Einwilligungsmechanismus erforderlich.</em></p>
+
+      <h2 id="aenderungen">10. Änderungen dieser Datenschutzerklärung</h2>
+      <p>Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.</p>
+
+      <p style="margin-top: 48px; font-size: 12px; color: var(--color-muted);">Stand: Juni 2026</p>
+
+      <div class="legal-block" style="margin-top: 48px; background: #fef9f0; border: 1px solid #f0e0c0;">
+        <p style="margin-bottom: 8px;"><strong>Wichtiger Hinweis:</strong></p>
+        <p style="font-size: 13px; margin-bottom: 0;">Dieser Text ist ein Mustertext und ersetzt keine rechtliche Beratung. Bitte lassen Sie die Datenschutzerklärung von einem Rechtsanwalt prüfen und an Ihre individuellen Verhältnisse anpassen — insbesondere bezüglich Hosting-Anbieter, eingesetzter Tools und etwaiger Tracking-Mechanismen. Platzhalter in eckigen Klammern <strong>[…]</strong> sind zwingend auszufüllen.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <span class="logo-mark">R</span>
+          <span class="logo-text">
+            <span class="logo-name">Rupp HR Partners</span>
+          </span>
+        </div>
+        <p>Personalberatung für den Mittelstand. Aus dem Allgäu, mit internationalem Anspruch.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Leistungen</h5>
+        <ul>
+          <li><a href="leistungen.html#executive-search">Executive Search</a></li>
+          <li><a href="leistungen.html#diagnostik">Diagnostik</a></li>
+          <li><a href="leistungen.html#employer-branding">Employer Branding</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Unternehmen</h5>
+        <ul>
+          <li><a href="ueber-uns.html">Über uns</a></li>
+          <li><a href="prozess.html">Prozess</a></li>
+          <li><a href="jobportal.html">Jobportal</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Kontakt</h5>
+        <ul>
+          <li>Keplerweg 29/1</li>
+          <li>88239 Wangen i. Allgäu</li>
+          <li><a href="tel:+491606434962" class="accent">+49 160 643 49 62</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Rupp HR Partners. Alle Rechte vorbehalten.</span>
+      <div class="footer-bottom-links">
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
